@@ -26,4 +26,12 @@ git add .
 
 git commit -m "first commit"
 
+oneliner update for README.md
+git add . && git commit -m "update README.md"
+
+git remote add origin https://github.com/vivek1305/simple-dvc-demo.git
+git branch -M main
+git push origin main
+
+
 
