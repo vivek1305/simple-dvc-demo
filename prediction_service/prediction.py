@@ -24,7 +24,7 @@ def read_params(config_path):
     
 
 def predict(data):
-    config=read_params(params_path)
+    config=read_params(param_path)
     model_dir_path=config["webapp_model_dir"]
     model=joblib.load(model_dir_path)
     prediction = model.predict(data).tolist()[0]
@@ -50,7 +50,7 @@ def validate_input(dict_request):
         if col not in actual_cols:
             raise NotInCols
     
-    def _validate_values(col,val):
+    def _validate_values(col,val):    
         schema = get_schema()
         if not (schema[col]["min"] <= float(dict_request[col]) <= schema[col]["max"]):
             raise NotInRange
