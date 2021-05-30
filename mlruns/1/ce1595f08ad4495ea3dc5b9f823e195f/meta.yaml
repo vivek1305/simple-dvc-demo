@@ -1,0 +1,15 @@
+artifact_uri: ./mlruns/1/ce1595f08ad4495ea3dc5b9f823e195f/artifacts
+end_time: 1622302766621
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+name: ''
+run_id: ce1595f08ad4495ea3dc5b9f823e195f
+run_uuid: ce1595f08ad4495ea3dc5b9f823e195f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1622302765884
+status: 4
+tags: []
+user_id: Shankar Shaw
